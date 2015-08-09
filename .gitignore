@@ -1,0 +1,23 @@
+# IDE
+.idea
+
+# Compiled Python
+*.pyc
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# local configs that should not be committed
+local/urls.py
+local/celery_config.py
+local/dev_settings.py
+local/static/*
+
+# sample json post from smartpress.com
+sample.json
